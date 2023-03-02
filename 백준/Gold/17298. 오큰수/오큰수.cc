@@ -19,7 +19,7 @@ int main() {
     stack<int> stack;
     stack.push(0);
     
-    for(int i=1; i<N; i++){
+    for(int i=0; i<N; i++){
         while(!stack.empty() && A[stack.top()] < A[i]) {
             ans[stack.top()] = A[i];
             stack.pop();
