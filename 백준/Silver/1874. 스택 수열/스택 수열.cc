@@ -23,8 +23,6 @@ int main() {
     bool result = true;
     
     for(int j=0; j<A.size(); j++){
-        int su = A[j];
-        
         if(A[j] >= num){
             while(A[j] >= num){
                 myStack.push(num++);
